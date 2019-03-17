@@ -1,14 +1,5 @@
-jQuery(document).ready(function() {
- // executes when HTML-Document is loaded and DOM is ready
-console.log("document is ready");
-  
-  
-  jQuery('.mdl[href^=#]').click(function(e){
-    e.preventDefault();
-    var href = jQuery(this).attr('href');
-    jQuery(href).modal('toggle');
-  });
+// Slide Out Animation for Contact Form Send Button
 
-  
-
-});  
+  function slideOut() {
+    document.getElementById("slide").classList.add("slide-out-elliptic-top-bck");
+  };
